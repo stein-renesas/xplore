@@ -1,17 +1,14 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: xplore-submodule-validation
+run-name: Validate Xplore submodules
 on:
   push:
-  #   paths:
-  #     - 'software-building-blocks/*'
-  pull_request:
     paths:
       - 'software-building-blocks/*'
 defaults:
   run:
     shell: bash
 jobs:
-  whatever:
+  check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo + submodules
