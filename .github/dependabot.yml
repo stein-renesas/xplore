@@ -7,4 +7,4 @@ updates:
     # Check the npm registry for updates every day (weekdays)
     schedule:
       interval: "cron"
-      cronjob: "* 24 * * *"
+      cronjob: "0 24 * * *"
