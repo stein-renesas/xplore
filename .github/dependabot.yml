@@ -5,4 +5,5 @@ updates:
     schedule:
       interval: "cron"
       cronjob: "0 24 * * *"
-    cooldown: 0
+    cooldown:
+      default-days: 0
