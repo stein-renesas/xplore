@@ -7,3 +7,4 @@ updates:
       cronjob: "0 24 * * *"
     cooldown:
       default-days: 0
+    open-pull-requests-limit: 1000
